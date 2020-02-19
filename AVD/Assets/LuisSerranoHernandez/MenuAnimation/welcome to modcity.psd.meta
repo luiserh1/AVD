@@ -164,10 +164,10 @@ TextureImporter:
       name: welcome to modcity_2
       rect:
         serializedVersion: 2
-        x: 775
-        y: 88
-        width: 212
-        height: 67
+        x: 699
+        y: 11
+        width: 465
+        height: 163
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: welcome to modcity_5
       rect:
         serializedVersion: 2
-        x: 91
-        y: 334
-        width: 1089
-        height: 399
+        x: 22
+        y: 341
+        width: 1245
+        height: 446
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
