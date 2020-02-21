@@ -1,25 +1,7 @@
 fileFormatVersion: 2
-guid: 8677d11be1782e049b8c589b539ac44f
+guid: c21481e900acac341b6f74f79bd3595f
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4465500240571014670
-    second: welcome to modcity_0
-  - first:
-      213: -2926933991400727166
-    second: welcome to modcity_1
-  - first:
-      213: 8444477520348268585
-    second: welcome to modcity_2
-  - first:
-      213: 3980813025146597118
-    second: welcome to modcity_3
-  - first:
-      213: -2712719263599079941
-    second: welcome to modcity_4
-  - first:
-      213: 791927234412379210
-    second: welcome to modcity_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -58,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -138,112 +120,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: welcome to modcity_1
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 13
-        width: 350
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28d1b89da017167d0800000000000000
-      internalID: -2926933991400727166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: welcome to modcity_2
-      rect:
-        serializedVersion: 2
-        x: 699
-        y: 11
-        width: 465
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9284122609fc03570800000000000000
-      internalID: 8444477520348268585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: welcome to modcity_3
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 175
-        width: 358
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efe6c19ea50be3730800000000000000
-      internalID: 3980813025146597118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: welcome to modcity_4
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 171
-        width: 346
-        height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfd41ddc33c7a5ad0800000000000000
-      internalID: -2712719263599079941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: welcome to modcity_5
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 341
-        width: 1245
-        height: 446
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4c7b17bf9d7dfa00800000000000000
-      internalID: 791927234412379210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -256,7 +133,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

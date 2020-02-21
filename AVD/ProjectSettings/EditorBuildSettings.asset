@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ADV/MAIN2019V.unity
     guid: 1ffa77a7b7c2e9b4b8979f9525b129a1
+  - enabled: 1
+    path: Assets/LuisSerranoHernandez/Scenes/Introduction.unity
+    guid: d91a658c7de10564ead8b05761d4e439
+  - enabled: 1
+    path: Assets/LuisSerranoHernandez/Scenes/BouncingBall.unity
+    guid: 6923bb97af7a6cf4293500452c079fac
   m_configObjects: {}

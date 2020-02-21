@@ -53,7 +53,7 @@ public class PlayerControl2D : MonoBehaviour
 
     public void OnCrouching(bool isCrouching)
     {
-        //   animator.SetBool("IsCrouching", isCrouching); 
+        // animator.SetBool("IsCrouching", isCrouching); 
     }
 
     void FixedUpdate()
