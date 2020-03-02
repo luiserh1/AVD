@@ -34,7 +34,7 @@ public class TurretController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.P)) { 
-        StartCoroutine(Shoot());
+            StartCoroutine(Shoot());
         }
     }
 }

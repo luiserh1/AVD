@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4807612120800607274}
   - component: {fileID: 7310233138513490689}
   - component: {fileID: 8026307285372929654}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: crate (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 5055762311829489855}
   - component: {fileID: 1871859478841573242}
   - component: {fileID: 3811967552787560212}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: crate (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 4022316650060539355}
   - component: {fileID: 7008214853287386374}
   - component: {fileID: 5990308046944740894}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1442594843325432091}
   - component: {fileID: 4758689165540791499}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: crate (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5569521332666508677}
   - component: {fileID: 1635089119198321609}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Crate's chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413329119280499829}
   - component: {fileID: 8750762674476293940}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: crate (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

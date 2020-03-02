@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6091379804592112754}
   - component: {fileID: 5695669421307010991}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: bush
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9220803771458032954}
   - component: {fileID: 8336206768578781680}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: TreeWithCherries
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,6 +178,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1337201779226634451, guid: ef6fcbe344316184fbd800330aee9fba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337201779226634451, guid: ef6fcbe344316184fbd800330aee9fba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     - target: {fileID: 6863103536560121427, guid: ef6fcbe344316184fbd800330aee9fba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -251,6 +261,16 @@ PrefabInstance:
     - target: {fileID: 1337201779226634451, guid: ef6fcbe344316184fbd800330aee9fba,
         type: 3}
       propertyPath: m_Name
+      value: Cherry
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337201779226634451, guid: ef6fcbe344316184fbd800330aee9fba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337201779226634451, guid: ef6fcbe344316184fbd800330aee9fba,
+        type: 3}
+      propertyPath: m_TagString
       value: Cherry
       objectReference: {fileID: 0}
     - target: {fileID: 3806097939024996738, guid: ef6fcbe344316184fbd800330aee9fba,
@@ -332,6 +352,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cherry (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337201779226634451, guid: ef6fcbe344316184fbd800330aee9fba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337201779226634451, guid: ef6fcbe344316184fbd800330aee9fba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     - target: {fileID: 6863103536560121427, guid: ef6fcbe344316184fbd800330aee9fba,
         type: 3}
