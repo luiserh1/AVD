@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TurretController : MonoBehaviour
 {
+    public Animator[] animators;
     [SerializeField] GameObject[] cannon;
     [SerializeField] GameObject bullet;
     [SerializeField] float shoootingForce;
@@ -16,6 +17,7 @@ public class TurretController : MonoBehaviour
 
     IEnumerator Shoot()
     {
+        animators[currentCannon].SetTrigger("Fire");
         GameObject shootingCannon = cannon[currentCannon];
         GameObject shootedBullet = Instantiate(bullet,shootingCannon.transform.position,
             shootingCannon.transform.rotation);
