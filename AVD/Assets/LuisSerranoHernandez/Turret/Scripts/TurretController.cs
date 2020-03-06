@@ -8,6 +8,7 @@ public class TurretController : MonoBehaviour
     [SerializeField] GameObject[] cannon;
     [SerializeField] GameObject bullet;
     [SerializeField] float shoootingForce;
+
     private  int currentCannon;
     // Start is called before the first frame update
     void Start()
@@ -22,21 +23,18 @@ public class TurretController : MonoBehaviour
         GameObject shootedBullet = Instantiate(bullet,shootingCannon.transform.position,
             shootingCannon.transform.rotation);
 
-        shootedBullet.GetComponent<Rigidbody>().AddForce(
-            shootedBullet.transform.forward * shoootingForce, ForceMode.Impulse);
- 
         currentCannon++;
         if (currentCannon >= cannon.Length) currentCannon = 0;
 
-        yield return new WaitForSeconds(3f);
-        Destroy(shootedBullet);
+        yield return new WaitForSeconds(0.25f);
+        shootedBullet.GetComponent<Rigidbody>().AddForce(
+            shootedBullet.transform.forward * shoootingForce, ForceMode.Impulse);
+        Destroy(shootedBullet, 3f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P)) { 
-            StartCoroutine(Shoot());
-        }
+        StartCoroutine(Shoot());
     }
 }

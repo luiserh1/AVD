@@ -28,7 +28,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554442978909667309}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &312852800
 GameObject:
@@ -4842,7 +4842,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554442978909667309}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512617569
 GameObject:
@@ -5772,8 +5772,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 312852801}
-  - {fileID: 1356870489}
   - {fileID: 214206426}
+  - {fileID: 1356870489}
   - {fileID: 1512617570}
   m_Father: {fileID: 2667499882316223622}
   m_RootOrder: 1
@@ -8378,13 +8378,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 528124a354bffb34f84b9c8c678f74d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animators:
+  - {fileID: 8263113795414351226}
+  - {fileID: 1328372710412642103}
+  - {fileID: 7574141180902638846}
+  - {fileID: 3673077847569754527}
   cannon:
   - {fileID: 1512617569}
   - {fileID: 214206425}
   - {fileID: 1356870488}
   - {fileID: 312852800}
   bullet: {fileID: 3716197441863570171, guid: 166a3310b5d8f454c9c6ddfd7b3ccb4a, type: 3}
-  shoootingForce: 10
+  shoootingForce: 30
 --- !u!1 &2081574314996976133
 GameObject:
   m_ObjectHideFlags: 0
