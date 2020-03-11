@@ -14,9 +14,7 @@ public class TurretBulletController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        Debug.Log("Fire force: " + fireForce);
         Destroy(gameObject, 3f);
-       
     }
 
     void Start()

@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class TurretController : MonoBehaviour
 {
+    public Animator myAnimator;
     public Animator[] animators;
     [SerializeField] GameObject[] cannon;
     [SerializeField] GameObject bullet;
     [Range(0, 100)] [SerializeField] float shoootingForce;
     [Range(0, 30)] [SerializeField] float shoootingFrequency;
+    public float livingTime;
+    public bool standing;
     float deltaTime;
 
     private  int currentCannon;
@@ -17,6 +20,7 @@ public class TurretController : MonoBehaviour
     {
         deltaTime = 0f;
         currentCannon = 0;
+        StartCoroutine(Die());
     }
 
     IEnumerator Shoot()
@@ -31,11 +35,21 @@ public class TurretController : MonoBehaviour
             shootingCannon.transform.rotation).GetComponent<TurretBulletController>().SetFireForce(shoootingForce);
     }
 
+    IEnumerator Die()
+    {
+        Debug.Log("I am going to die in " + livingTime + " seconds");
+        yield return new WaitForSeconds(livingTime);
+        Debug.Log("Me mueroooooooooooooooooooooooo!");
+        myAnimator.SetTrigger("die");
+        StopAllCoroutines();
+    }
+
+
     // Update is called once per frame
     void Update()
     {
         deltaTime += Time.deltaTime;
-        if (deltaTime > 1.0f / shoootingFrequency)
+        if (standing && deltaTime > 1.0f / shoootingFrequency)
         {
             StartCoroutine(Shoot());
             deltaTime = 0f;
