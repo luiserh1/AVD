@@ -25,7 +25,7 @@ public class TurretBulletController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Ground"))
+        if (other.gameObject.layer == 16)
         {
             Destroy(gameObject);
         }

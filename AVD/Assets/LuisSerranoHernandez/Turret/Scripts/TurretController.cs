@@ -37,9 +37,7 @@ public class TurretController : MonoBehaviour
 
     IEnumerator Die()
     {
-        Debug.Log("I am going to die in " + livingTime + " seconds");
         yield return new WaitForSeconds(livingTime);
-        Debug.Log("Me mueroooooooooooooooooooooooo!");
         myAnimator.SetTrigger("die");
         StopAllCoroutines();
     }
@@ -54,5 +52,16 @@ public class TurretController : MonoBehaviour
             StartCoroutine(Shoot());
             deltaTime = 0f;
         }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            Debug.Log("Muérome");
+            myAnimator.SetTrigger("die");
+            StopAllCoroutines();
+        }
+        /*if (Input.GetKeyDown(KeyCode.UpArrow)) shootingAngle += 0.05f;
+        if (Input.GetKeyDown(KeyCode.DownArrow)) shootingAngle -= 0.05f;
+        if (shootingAngle < -1) shootingAngle = -1;
+        if (shootingAngle > 1) shootingAngle = 1;*/
+
     }
 }
