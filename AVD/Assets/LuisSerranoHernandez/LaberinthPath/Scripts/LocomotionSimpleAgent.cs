@@ -45,6 +45,16 @@ public class LocomotionSimpleAgent : MonoBehaviour
         // GetComponent<LookAt>().lookAtTargetPosition = agent.steeringTarget + transform.forward;
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Disco"))
+        {
+            velocity = Vector2.zero;
+            anim.SetTrigger("dance");
+            other.GetComponentInParent<Animator>().SetTrigger("action");
+        }
+    }
+
     void OnAnimatorMove()
     {
         // Update position to agent position
