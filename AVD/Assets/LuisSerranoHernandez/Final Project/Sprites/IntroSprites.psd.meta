@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: e90e9556482dc0741ab2bb78a9ed4d57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6365957512354456721
+    second: WelcomeSign
+  - first:
+      213: 8592486484759520085
+    second: CreditsName
+  - first:
+      213: -2644102965141215564
+    second: BackButtonNotPressed
+  - first:
+      213: -5725497556924328407
+    second: BackButtonPressed
+  - first:
+      213: 3236281031853470458
+    second: IntroSprites_4
+  - first:
+      213: -4878994730364629162
+    second: IntroSprites_5
+  - first:
+      213: -4216122526588530668
+    second: IntroSprites_6
+  - first:
+      213: -6512638163171245909
+    second: IntroSprites_7
+  - first:
+      213: 2456722510861816345
+    second: PlayButtonHover
+  - first:
+      213: -2455428846122345684
+    second: PlayButtonNotPressed
+  - first:
+      213: 7903536633083999225
+    second: CreditsButtonHover
+  - first:
+      213: -723543632606134050
+    second: PlayButtonPressed
+  - first:
+      213: 3110790213680717868
+    second: CreditsButtonNotPressed
+  - first:
+      213: 7279801998365555482
+    second: CreditsButtonPressed
+  - first:
+      213: -7935100121182978501
+    second: BackButtonHover
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WelcomeSign
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 1248
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b12ecee5397a7a0800000000000000
+      internalID: -6365957512354456721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButtonHover
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 176
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912df9b7b18081220800000000000000
+      internalID: 2456722510861816345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButtonNotPressed
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 176
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b51af49709cedd0800000000000000
+      internalID: -2455428846122345684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButtonHover
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 175
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3324c61b00fad60800000000000000
+      internalID: 7903536633083999225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 18
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0040f46e475f5f0800000000000000
+      internalID: -723543632606134050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButtonNotPressed
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 19
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c206339b73fbb2b20800000000000000
+      internalID: 3110790213680717868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 18
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf1c3f85d070560800000000000000
+      internalID: 7279801998365555482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsName
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 659
+        width: 441
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553af65dee4ae3770800000000000000
+      internalID: 8592486484759520085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButtonHover
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 177
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ebab35b7cd0e190800000000000000
+      internalID: -7935100121182978501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButtonNotPressed
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 177
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6633dbc524e4bd0800000000000000
+      internalID: -2644102965141215564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 19
+        width: 343
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92698259e42fa80b0800000000000000
+      internalID: -5725497556924328407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
